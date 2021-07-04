@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+  background-color: #f7f7f7;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 180px 0;
+  background:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('http://localhost/uas-mrahman/img/bghero.jpg');
+  background-size: cover;
+  color: white;
+  text-align: left;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 5px;
+}
+
+.top-wrapper p {
+  margin-top: 20px;
+  margin-bottom: 3px;
+}
+
+
+.signup {
+  background-color: #239b76;
+  border: none;
+  padding: 15px 40px;
+  cursor: pointer;
+}
+
+.blue {
+  background-color: #3b5998;
+  border: none;
+  cursor: pointer;
+}
+
+.azure {
+  background-color: #55acee;
+}
+
+.delete{
+  background-color: red;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(252, 249, 249, 0.938);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  height:100px;
+  margin: -20px;
+}
+
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: rgb(24, 5, 5);
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+
+.lesson-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 55px;
+  padding-bottom: 10px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  float: left;
+  width: 25%;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5d95ca;
+  cursor: pointer;
+  box-shadow: 0 7px #1a5b79;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+
+input{
+  height: 40px;  
+}
+
+input,textarea{ 
+  padding: 10px;
+  width: 25%;
+  margin-bottom: 10px;
+  padding: 12px 24px;
+  display: inline-block;
+}
+
+.notif{
+  color:  #f52a2a;
+  font-size:12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.tengah {
+  margin-top: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+table{
+  margin-top: 10px;
+}
+
+.form{
+  width: 800px;
+}
+
+.content{
+  margin-top: 7%;
+  margin-left: 15%;
+  margin-right: 15%;
+  background-color: white;
+  padding: 30px;
+}
+
+
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
