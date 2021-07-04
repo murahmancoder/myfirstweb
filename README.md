@@ -6,4 +6,4 @@ Cara Pengunaan
 1. Download Repository 
 2. Simpan folder didalam DIR:/xampp/htdocs 
 3. Buat tabel database di phpmyadmin dengan nama web-rahman lalu import file web-rahman.sql yang sudah ada bersama repository tersebut 
-4. Jalankan Web di Browser dengan menuliskan di search box localhost/nama repository
+4. Jalankan Web di Browser dengan menuliskan di search box localhost/nama folder tempat repository
