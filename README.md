@@ -1,5 +1,5 @@
-# myfirstweb
-repository pertama saya yaitu tentang website yang menampilkan artikel terdapat halaman home, daftar, dan login. 
+# Article Web
+website yang menampilkan artikel terdiri dari halaman home, daftar, dan login. 
 Dibuat dengan bahasa pemrograman PHP Native yang sudah terdapat file databasenya (langsung import) dan terdapat proses CRUD (Create, Read, Update, Delete) dalam mengelola sebuah artikel yang ditampilkan. 
 
 Cara Pengunaan  
